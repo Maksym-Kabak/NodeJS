@@ -35,12 +35,10 @@ app.post('/logged', (req, res) => {
     }
 
 })
-
 app.post('/add-user', (req, res) => {
     const email = req.body.email;
     users.push({name: req.body.username, email: req.body.email, password: req.body.password})
     // console.log(users)
     res.redirect('/login');
 });
-
 app.listen(3000);
