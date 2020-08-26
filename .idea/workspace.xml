@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/views/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/views/layouts/main-layout.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/views/login.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/views/users.hbs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +47,13 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\NodeJS\lesson2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\NodeJS\lesson2\views" />
       <recent name="D:\NodeJS\lesson-1\folder\folder1\folder2\folder3" />
       <recent name="D:\NodeJS\lesson-1\folder\folder1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NodeJS\lesson2" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -69,6 +73,7 @@
       <workItem from="1598359516654" duration="13657000" />
       <workItem from="1598373939534" duration="8932000" />
       <workItem from="1598384563581" duration="321000" />
+      <workItem from="1598458706525" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="-ls 2">
       <created>1598384717207</created>
