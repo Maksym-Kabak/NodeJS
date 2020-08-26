@@ -37,5 +37,5 @@ app.post('/login', userController.postLogin);
 app.listen(3000, (err) => {
     if (err) console.log(err);
 
-    console.log('Server listening on 5000');
+    console.log('Server  3000');
 });
