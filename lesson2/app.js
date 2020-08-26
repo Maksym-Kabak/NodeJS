@@ -6,6 +6,7 @@ const app = express();
 
 const users = [];
 
+
 app.engine('.hbs', expressHbs({defaultLayout: 'main-layout', extname: '.hbs'}))
 app.set('view engine', '.hbs');
 app.set('views', 'views');
@@ -25,7 +26,6 @@ app.get('/login', (req, res) => {
     res.render('login', {users: newUser.splice(0), hasUsers: users.length > 0})
 });
 app.post('/logged', (req, res) => {
-    // singleUser.push({email: req.body.email})
     const result = users.find(value => value.email === req.body.email);
     newUser.push(result)
     if (result === undefined) {
@@ -35,10 +35,13 @@ app.post('/logged', (req, res) => {
     }
 
 })
-app.post('/add-user', (req, res) => {
-    const email = req.body.email;
-    users.push({name: req.body.username, email: req.body.email, password: req.body.password})
-    // console.log(users)
-    res.redirect('/login');
+app.post('/users', (req, res) => {
+    const result = users.find(value => value.email === req.body.email);
+    if (result === undefined) {
+        users.push({name: req.body.username, email: req.body.email, password: req.body.password})
+        res.redirect('/login');
+    } else {
+        res.redirect('/');
+    }
 });
 app.listen(3000);
