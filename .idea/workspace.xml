@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="" />
+    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson3-CRUD/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3-CRUD/routes/cars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/data/users.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +26,15 @@
     <option name="defaultAccountId" value="42a59dcd-0691-4a57-a90d-f5b7d5e3280e" />
   </component>
   <component name="ProjectId" id="1gMrSyPxtYPikRhjbPMgecC6Z4F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,6 +73,9 @@
       <workItem from="1598373939534" duration="8932000" />
       <workItem from="1598384563581" duration="321000" />
       <workItem from="1598458706525" duration="1527000" />
+      <workItem from="1598460349271" duration="87000" />
+      <workItem from="1598460894452" duration="361000" />
+      <workItem from="1598518575619" duration="5050000" />
     </task>
     <task id="LOCAL-00001" summary="-ls 2">
       <created>1598384717207</created>
@@ -108,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598460174063</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-lesson 2 improved">
+      <created>1598460400150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598460400150</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,10 +142,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="543" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597936261473" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1598460165744">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1598460398928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598460165744" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598460398928" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598384671558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -136,10 +154,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598384883608" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1598460186915">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1598460401683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598460186915" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598460401683" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597937304715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
