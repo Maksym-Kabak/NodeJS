@@ -46,7 +46,6 @@ router.post('/', (req, res) => {
         type: req.body.type
     }
     data.push(newCars);
-
     res.status(201).json(newCars);
 })
 // UPDATE
