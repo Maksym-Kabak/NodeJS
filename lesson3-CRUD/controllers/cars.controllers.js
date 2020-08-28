@@ -24,9 +24,9 @@ module.exports = {
     updateCar: (req, res) => {
         const found = carsServices.carUpdate(req.params.id, req.body)
         if(found){
-            res.sendStatus(204);
-        } else {
             res.sendStatus(404);
+        } else {
+            res.sendStatus(204);
         }
     },
 
