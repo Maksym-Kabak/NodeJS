@@ -11,9 +11,9 @@ router.get('/', controllerCars.readCars);
 
 router.get('/:id', controllerCars.carById);
 // CREATE
-router.post('/', middleware.carsValidity, controllerCars.createCar)
+router.post('/',middleware.carsValidity, controllerCars.createCar)
 // UPDATE
-router.put('/:id', middleware.carsValidity, controllerCars.updateCar);
+router.put('/:id',controllerCars.updateCar);
 // DELETE
 
 router.delete('/:id', controllerCars.deleteCar);

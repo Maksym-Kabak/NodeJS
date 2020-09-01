@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson3-CRUD/controllers/cars.controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3-CRUD/middleware/cars.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3-CRUD/services/cars.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/controllers/cars.controllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/dateBase/dataBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/middleware/cars.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/models/cars.models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/routes/cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4-Sequalize/services/cars.services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson3-CRUD/routes/cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3-CRUD/routes/cars.js" afterDir="false" />
     </list>
@@ -36,24 +43,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson4-Sequalize" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NodeJS\lesson4-Sequalize" />
+      <recent name="D:\NodeJS\lesson2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\NodeJS\lesson2\views" />
       <recent name="D:\NodeJS\lesson-1\folder\folder1\folder2\folder3" />
       <recent name="D:\NodeJS\lesson-1\folder\folder1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\NodeJS\lesson2" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -78,7 +88,8 @@
       <workItem from="1598460894452" duration="361000" />
       <workItem from="1598518575619" duration="5520000" />
       <workItem from="1598562757980" duration="507000" />
-      <workItem from="1598603978334" duration="8833000" />
+      <workItem from="1598603978334" duration="9436000" />
+      <workItem from="1598953826838" duration="9755000" />
     </task>
     <task id="LOCAL-00001" summary="-ls 2">
       <created>1598384717207</created>
@@ -150,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598523945012</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="-lesson 3">
+      <created>1598621829300</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598621829300</updated>
+    </task>
+    <task id="LOCAL-00012" summary="-lesson 3">
+      <created>1598621900273</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598621900273</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,26 +188,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="-lesson 3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598954290490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598954290490" />
     <state x="543" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597936261473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="543" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597936261473" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1598523944232">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1598621899427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598523944232" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598621899427" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598384671558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598384671558" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598955288848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598955288848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598955288848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598955288848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1598954591622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1598954591622" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1598384883608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598384883608" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1598523968370">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1598621906279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598523968370" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598621906279" />
+    <state x="668" y="289" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598954579876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="668" y="289" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1536.824@0.0.1536.824" timestamp="1598954579876" />
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598960814388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598960814388" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1598621516850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
