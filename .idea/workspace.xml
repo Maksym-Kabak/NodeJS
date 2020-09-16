@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="" />
+    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/configs/regexp.unum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/configs/sequelize.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/controllers/cars.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/controllers/users.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/dateBase/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/dateBase/migrations/20200915065824-create-user-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/dateBase/migrations/20200915143532-create-car-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/dateBase/models/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/dateBase/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/error/ErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/error/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/error/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/error/statusCodes.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/helpers/hash-password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/helpers/password-comparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/middleware/check-car-validity.midlleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/middleware/check-is-user-present.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/middleware/check-user-validity.middlewere.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/middleware/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/routes/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/routes/auth.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/routes/cars.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/routes/users.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/services/cars.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/services/users.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/validators/car/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/validators/car/new-car.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/validators/car/update-car.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/validators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/validators/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/validators/user/new-user.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6-Joi_Bcrypt/validators/user/update-user.validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-Migrations/error/errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-Migrations/error/errors.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,18 +85,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NodeJS" />
+      <recent name="D:\NodeJS\lesson4-Sequalize" />
+      <recent name="D:\NodeJS\lesson2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\NodeJS\lesson4-Sequalize\dateBase" />
       <recent name="D:\NodeJS\lesson2\views" />
       <recent name="D:\NodeJS\lesson-1\folder\folder1\folder2\folder3" />
       <recent name="D:\NodeJS\lesson-1\folder\folder1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\NodeJS" />
-      <recent name="D:\NodeJS\lesson4-Sequalize" />
-      <recent name="D:\NodeJS\lesson2" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -94,7 +139,11 @@
       <workItem from="1600154988595" duration="247000" />
       <workItem from="1600155248890" duration="236000" />
       <workItem from="1600155496106" duration="11251000" />
-      <workItem from="1600179950829" duration="7655000" />
+      <workItem from="1600179950829" duration="8015000" />
+      <workItem from="1600245637021" duration="2210000" />
+      <workItem from="1600248074604" duration="5854000" />
+      <workItem from="1600253949684" duration="2795000" />
+      <workItem from="1600256812003" duration="4384000" />
     </task>
     <task id="LOCAL-00001" summary="-ls 2">
       <created>1598384717207</created>
@@ -208,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600191426650</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="-lesson 5 migration">
+      <created>1600191687766</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600191687766</updated>
+    </task>
+    <task id="LOCAL-00018" summary="-lesson 5 migration">
+      <created>1600191767977</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600191767977</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,10 +291,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="90" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1600162416211" />
-    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598954290490">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1559" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600252040724">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598954290490" />
+    <state x="-1559" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600252040724" />
     <state x="543" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600152353960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -240,31 +304,39 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600157348089" />
-    <state x="-1527" y="0" key="CommitChangelistDialog2" timestamp="1600191423422">
+    <state x="-1527" y="0" key="CommitChangelistDialog2" timestamp="1600191767007">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599032710304" />
-    <state x="-1527" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600191423422" />
+    <state x="-1527" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600191767007" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1600251990895">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600251990895" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598384671558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598384671558" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598955288848">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600256796391">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598955288848">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600256796391" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600256796391">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598955288848">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600256796391" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600256796391">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598955288848">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600256796391" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600256796391">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598955288848" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600256796391" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1598954591622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -277,11 +349,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600155482986" />
-    <state x="-1559" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600191430104">
+    <state x="-1559" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600191769713">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599032715081" />
-    <state x="-1559" y="132" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600191430104" />
+    <state x="-1559" y="132" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600191769713" />
     <state x="668" y="289" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598954579876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -299,10 +371,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599031697657" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1598621516850">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1495" y="187" key="run.anything.popup" timestamp="1600251033329">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598621516850" />
+    <state x="-1495" y="187" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1600251033329" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598618101315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
