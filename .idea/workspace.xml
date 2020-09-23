@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/.sequelizerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/configs/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/configs/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/configs/db-tables.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/configs/regexp.unum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/configs/sequelize.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/controllers/auth.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/controllers/cars.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/controllers/users.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/dateBase/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/dateBase/migrations/20200915065824-create-user-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/dateBase/migrations/20200915143532-create-car-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/dateBase/models/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/dateBase/models/OAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/dateBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/error/ErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/error/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/error/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/error/statusCodes.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/helpers/hash-password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/helpers/password-comparator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/helpers/tokinazer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/car/check-car-validity.midlleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/car/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/token/check-access-token.middelware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/token/check-refresh-token.middelware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/token/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/user/check-is-user-present.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/user/check-user-validity.middlewere.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/middleware/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/routes/api.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/routes/auth.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/routes/cars.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/routes/users.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/services/cars.services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/services/oAuth.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/services/users.services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/validators/car/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/validators/car/new-car.validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/validators/car/update-car.validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/validators/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/validators/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/validators/user/new-user.validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-jwt/validators/user/update-user.validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="42a59dcd-0691-4a57-a90d-f5b7d5e3280e" />
@@ -92,24 +57,24 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson7-jwt/middleware" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NodeJS" />
+      <recent name="D:\NodeJS\lesson7-jwt\middleware" />
+      <recent name="D:\NodeJS\lesson4-Sequalize" />
+      <recent name="D:\NodeJS\lesson2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\NodeJS\lesson7-jwt\middleware\car" />
       <recent name="D:\NodeJS\lesson7-jwt\middleware\user" />
       <recent name="D:\NodeJS\lesson7-jwt\middleware\token" />
       <recent name="D:\NodeJS\lesson4-Sequalize\dateBase" />
       <recent name="D:\NodeJS\lesson2\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\NodeJS\lesson7-jwt\middleware" />
-      <recent name="D:\NodeJS" />
-      <recent name="D:\NodeJS\lesson4-Sequalize" />
-      <recent name="D:\NodeJS\lesson2" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -291,6 +256,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-ls 2" />
