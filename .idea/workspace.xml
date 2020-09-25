@@ -19,7 +19,76 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="" />
+    <list default="true" id="3de513ae-076f-4869-bf6e-7f5c4c44196a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/configs/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/configs/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/configs/db-tables.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/configs/email-action.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/configs/regexp.unum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/configs/sequelize.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/controllers/cars.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/controllers/users.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/dateBase/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/dateBase/migrations/20200915065824-create-user-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/dateBase/migrations/20200915143532-create-car-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/dateBase/migrations/20200921103953-create-token-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/dateBase/models/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/dateBase/models/OAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/dateBase/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/email-templates/create-car.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/email-templates/forgot-pass.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/email-templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/email-templates/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/email-templates/template.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/email-templates/welcome.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/error/ErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/error/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/error/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/error/statusCodes.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/helpers/hash-password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/helpers/password-comparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/helpers/tokinazer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/car/check-car-validity.midlleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/car/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/files/check-file.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/files/check-user-photo-count.middelware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/files/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/token/check-access-token.middelware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/token/check-refresh-token.middelware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/token/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/user/check-is-user-present.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/user/check-user-update.middelware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/user/check-user-validity.middlewere.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/middleware/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/routes/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/routes/auth.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/routes/cars.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/routes/users.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/services/cars.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/services/email.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/services/oAuth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/services/users.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/validators/car/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/validators/car/new-car.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/validators/car/update-car.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/validators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/validators/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/validators/user/new-user.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-NodeFileUpload/validators/user/update-user.validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="87e82950-511c-46f5-bcae-440244f5cae9" name="Revert &quot;-lesson 8 nodemailer&quot;" comment="Revert &quot;-lesson 8 nodemailer&quot;&#10;&#10;This reverts commit c641f4b5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
