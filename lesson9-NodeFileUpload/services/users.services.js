@@ -11,21 +11,23 @@ module.exports = {
         return User.findByPk(paramsId);
     },
 
-    createUser: async (userObject) => {
+    createUser: async (userObject, transaction) => {
         const User = connection.getModel('User');
-        return User.create(userObject, { new: true });
+        return User.create(userObject, { new: true, transaction });
     },
 
-    userUpdate: async (paramsId, data) => {
+    userUpdate: async (id, data, transaction) => {
         const User = connection.getModel('User');
         return User.update(data, {
-            where: { id: paramsId }
+            where: { id },
+            transaction
         });
     },
-    userDelete: async (id) => {
+    userDelete: async (id, transaction) => {
         const User = connection.getModel('User');
         return User.destroy({
-            where: { id }
+            where: { id },
+            transaction
         })
 
     },

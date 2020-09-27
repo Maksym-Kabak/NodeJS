@@ -12,22 +12,24 @@ module.exports = {
         return Car.findByPk(paramsId);
     },
 
-    createCars: async (carObject) => {
+    createCars: async (carObject, transaction) => {
         const Car = connection.getModel('Car');
-        return Car.create(carObject, { new: true });
+        return Car.create(carObject, { new: true, transaction });
     },
 
-    carUpdate: async (paramsId, data) => {
+    carUpdate: async (id, data, transaction) => {
         const Car = connection.getModel('Car');
         return Car.update(data, {
-            where: { id: paramsId }
+            where: { id },
+            transaction
         });
     },
 
-    carDelete: async (id) => {
+    carDelete: async (id, transaction) => {
         const Car = connection.getModel('Car');
         return Car.destroy({
-            where: { id: id }
+            where: { id },
+            transaction
         })
 
     }

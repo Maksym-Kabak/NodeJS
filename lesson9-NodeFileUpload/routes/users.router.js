@@ -12,8 +12,8 @@ usersRouter.get('/:id', controllerUsers.userById);
 usersRouter.post(
     '/',
     userMiddleware.userValidity,
-    filesMiddleware.checkFileMiddleware,
-    filesMiddleware.checkUserPhotoCountMiddleware,
+    // filesMiddleware.checkFileMiddleware,
+    // filesMiddleware.checkUserPhotoCountMiddleware,
     controllerUsers.createUser
 )
 // UPDATE
